@@ -1,0 +1,165 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size:  1.25em;}
+
+li{font-size: 1.25em;}
+
+
+body{
+margin: 5 ;
+background-color: rgb(243, 246, 248);
+font-family:  'Roboto',sans-serif;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(155, 155, 155, 0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: rgb(20, 20, 20);
+    background-color: rgb(78, 176, 241);
+}
+button:hover{
+  background-color: rgb(48, 128, 182);
+}
+.container{
+  max-width: 1400px;
+  margin: auto;
+}
+.color-acento{
+  color:rgb(49, 163, 230)
+}
+header{
+  background-color: rgb(228, 228, 216);
+}
+header .logo{
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(30, 78, 210);
+  font-size: 1.85;
+}
+header .container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+header nav{
+ display: flex;
+flex-direction: column;
+ text-align: center;
+ padding-bottom: 25px;
+}
+ header a{
+  padding:  5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+ }
+header a:hover{
+  color: rgb(39, 76, 199);
+}
+#HERO{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+  color: rgb(237, 237, 238);
+  background-image:linear-gradient(
+    0deg,
+    rgba(44, 44, 44, 0.5),
+    rgba(49, 49, 49, 0.5)
+  )
+  ,url("media/machu.jpg");
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#UNMSM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(
+      0deg,
+      rgba(44, 44, 44, 0.5),
+      rgba(49, 49, 49, 0.5)
+    )
+    ,url("media/univ.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+#Infotrab{
+
+}
+#Infotrab .container{
+  text-align: center;
+  padding: 100px 12px;
+}
+#Nuestro-Trab{
+  background-color: rgb(43, 43, 43);
+  color: white;
+  text-align: center;
+}
+#Nuestro-Trab .container{
+  text-align: center;
+  padding: 100px 0px;
+}
+#Nuestro-Trab h3{
+  margin-top: 3;
+
+}
+#Nuestro-Trab .container p{
+  
+  display: none;
+
+}
+#Nuestro-Trab .carta{
+
+
+
+}
+
+.carta:first-child{
+background-image:  linear-gradient(
+  0deg,
+  rgba(44, 44, 44, 0.5),
+  rgba(49, 49, 49, 0.5)
+)
+,url("media/vicuñas.jpg");
+
+}
+
+.carta:nth-child(2){
+  background-image:  linear-gradient(
+    0deg,
+    rgba(44, 44, 44, 0.5),
+    rgba(49, 49, 49, 0.5)
+  )
+  ,url("media/volcan.jpg");
+  }
+  
+.carta:nth-child(3){
+
+  background-image:  linear-gradient(
+    0deg,
+    rgba(44, 44, 44, 0.5),
+    rgba(49, 49, 49, 0.5)
+  )
+  ,url("media/lima.jpg");
+  
+}
